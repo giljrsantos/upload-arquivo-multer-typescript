@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Arquivos</title>
+</head>
+<body>
+
+    <div class="container">    
+
+        <form class="uploadForm" action="http://localhost:3000/" method="post" enctype="multipart/form-data">
+
+            <label class="form-label" for="customFile">Selecione um arquivo</label>
+            <input type="file"  name="avatar" class="form-control" id="customFile" />
+            <input class="btn btn-primary mt-4" type="submit" value="Enviar">
+        </form>
+
+    </div>
+    
+</body>
+</html>
